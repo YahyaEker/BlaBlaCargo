@@ -1,0 +1,48 @@
+.header{
+
+    background-color: rgb(210, 105, 30) ;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 65px; */
+    padding: 0 20px;
+    position: relative; 
+    /* overflow: hidden;  */
+    
+}
+.logo{
+    display: flex;
+    align-items: center; /* Logoyu dikeyde ortalar */
+    position: relative; /* Yukarı doğru taşırmak için */
+    z-index: 10; /* Logo, diğer elementlerin üstünde kalır */
+    top: 5px; /* Yukarı doğru taşırma */
+}
+.logo img{
+    height: 12.75vh;
+    width: auto;
+
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 2.9vh;
+    
+
+}
+.header button{
+    font-size: 2.9vh;
+    padding: 1.3vh;
+    border-radius: 5px;
+    border-color: rgb(210, 105, 30);
+    height: 45px;
+    
+    
+
+}
