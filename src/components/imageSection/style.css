@@ -1,0 +1,28 @@
+.kafkef {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color:#444550 ;
+    margin: 30px;
+}
+
+.photo {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 50px;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 20px;
+    max-width: 50%;
+    text-align: left;
+    
+}

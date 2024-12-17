@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    align-items: flex-start; /* .top kısmında hizalamayı sağlar */
+    flex-direction: column;
+    background-color: #00526B;
+    margin: 50px;
+    padding: 50px;
+    height: 70vh;
+    gap: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start; /* Elemanların solda hizalanmasını sağlar */
+    gap: 10px;
+}
+
+.top select {
+    width: 40vw; /* Daha uygun bir genişlik */
+    height: 40px;
+}
+
+.main input {
+    font-size: larger;
+}
+
+.top .sago {
+    width: 170%; /* Daha geniş, flex uyumlu */
+    height: 40px;
+}
+
+.formbox {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+}
+
+.inputs {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

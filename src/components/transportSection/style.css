@@ -1,0 +1,43 @@
+.main{
+    display: flex; /* Flexbox düzeni */
+    flex-direction: column; /* İçerikleri dikey hizala */
+    justify-content: center; /* Dikeyde ortala */
+    align-items: center; /* Yatayda ortala */
+    text-align: center; /* Metinleri ortala */
+    margin: 25px;
+    padding: 45px;
+    height: 100vh;
+}
+.main div .sago{
+
+    width: 70px; /* Logo genişliği */
+    height: 70px; /* Logo yüksekliği */
+    margin-bottom: 10px;
+
+}
+.sub{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px; /* Grid genişliği */
+    margin: auto; /* Ekstra ortalama (opsiyonel) */
+    justify-content: center;
+}
+.box{
+  width: 280px; /* Kare için genişlik */
+  height: 180px; /* Kare için yükseklik */
+  background-color: #f0f0f0; /* Arkaplan rengi */
+  border: 1px solid #ccc; /* Kenar çizgisi */
+  display: flex; /* Flexbox kullanarak içeriği hizala */
+  flex-direction: column; /* Logo ve yazıyı dikey sıraya koy */
+  align-items: center; /* Yatayda ortala */
+  justify-content: center; /* Dikeyde ortala */
+  text-align: center; /* Yazıyı ortala */
+  margin: 10px; /* Kutu etrafına boşluk */
+}
+
+.box .text{
+    font-size: 14px; /* Yazı boyutu */
+  color: #333; /* Yazı rengi */
+  font-weight: bold; /* Kalın yazı */
+}

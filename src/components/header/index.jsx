@@ -1,6 +1,6 @@
 import './style.css'
 import Image from 'next/image';
-import logo from '../../../public/pageLogo.png'
+import logo from '../../../public/sago.png';
 import Link from 'next/link';
 
 const Header = () => {

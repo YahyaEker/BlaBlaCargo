@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { usePathname } from "next/navigation";
+import ImageSection from "@/components/imageSection";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         {!shouldHideLayout && <Header />}
         <main className="content">{children}</main>
         <div className="sago"><Footer /></div>
+
       </body>
     </html>
   );
